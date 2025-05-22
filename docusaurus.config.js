@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'TePay',
+        // title: 'TePay',
         logo: {
           alt: 'TePay Logo',
           src: 'img/logo.svg',

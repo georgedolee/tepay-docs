@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Simple Integration',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/puzzle.svg').default,
     description: (
       <>
         TePay provides a straightforward .NET interface for integrating with the TBC Bank Payment API, so you can start accepting payments quickly.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Full Payment Lifecycle',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/payment.svg').default,
     description: (
       <>
         From creating and canceling payments to handling pre-authorization and recurring transactions—TePay covers the complete payment flow.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Built-in Validation & Logging',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/validation.svg').default,
     description: (
       <>
         With FluentValidation for request validation and Serilog for robust logging, TePay ensures reliable, traceable interactions with the TBC Bank API.
@@ -36,9 +36,9 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      {/* <div className="text--center">
+      <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
-      </div> */}
+      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

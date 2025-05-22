@@ -15,10 +15,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://GeorgeDoLee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/TePayDocs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -72,12 +72,12 @@ const config = {
             label: 'Tutorial',
           },
           {
-            to: 'docs/contributing',
+            to: 'docs/Contributing',
             label: 'Contributing',
             position: 'left',
           },
           {
-            to: 'docs/license',
+            to: 'docs/License',
             label: 'License',
             position: 'left',
           },

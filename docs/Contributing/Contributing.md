@@ -78,7 +78,7 @@ After submitting your pull request (PR):
 
 ## License
 
-By submitting a contribution, you agree that your code is provided under the project’s [LICENSE](../License/).
+By submitting a contribution, you agree that your code is provided under the project’s [LICENSE](../License/License.md).
 
 ## Acknowledgements
 

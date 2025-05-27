@@ -18,12 +18,12 @@ const config = {
   url: 'https://GeorgeDoLee.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/TePayDocs',
+  baseUrl: '/tepay-docs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'GeorgeDoLee', // Usually your GitHub org/user name.
-  projectName: 'TePayDocs', // Usually your repo name.
+  projectName: 'tepay-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/GeorgeDoLee/TePayDocs/tree/main/',
+            'https://github.com/GeorgeDoLee/tepay-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,6 +58,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         // title: 'TePay',
         logo: {
@@ -82,7 +87,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/GeorgeDoLee/TePay',
+            href: 'https://github.com/GeorgeDoLee/tepay',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,12 +117,12 @@ const config = {
                 to: '/docs/Contributing',
               },
               {
-                label: 'GitHub Issues',
-                href: 'https://github.com/GeorgeDoLee/TePay/issues',
+                label: 'Issues',
+                href: 'https://github.com/GeorgeDoLee/tepay/issues',
               },
               {
                 label: 'Discussions',
-                href: 'https://github.com/GeorgeDoLee/TePay/discussions',
+                href: 'https://github.com/GeorgeDoLee/tepay/discussions',
               },
             ],
           },
@@ -135,7 +140,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/GeorgeDoLee/TePay',
+                href: 'https://github.com/GeorgeDoLee/tepay',
               },
               {
                 label: 'LinkedIn',
